@@ -47,6 +47,8 @@
 > [!IMPORTANT]
 > If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. This step is crucial for the `PalPatcher.sh` to work properly.
 <br />
+
+
 5. Drag the `.sav` file into the same patcher directory (Host.sav or Level.sav)
 ```
 .
@@ -54,6 +56,7 @@
 ├── PalParser.jar
 └── Level.sav
 ```
+
 > [!NOTE]
 > You only need to run this script with `00000000000000000000000000000001.sav` and `Level.sav` files. The other players, drag them into the player folder without any modifications.
 <br />
