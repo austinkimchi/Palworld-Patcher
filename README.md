@@ -45,7 +45,7 @@
     palworld-save-tools -h
     ```
 > [!IMPORTANT]
-> If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. This step is crucial for the `PalPatcher.sh` to work properly.
+> If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. <br /> This step is crucial for the `PalPatcher.sh` to work properly.
 <br />
 
 
