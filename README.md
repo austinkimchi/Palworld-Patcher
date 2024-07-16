@@ -26,7 +26,7 @@
 
 3. Clone this repository
     ```bash
-    git clone
+    git clone https://github.com/PrincessKimchi/Palworld-Patcher.git
     ```
 
 4. Install the required packages
