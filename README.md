@@ -63,7 +63,8 @@
     bash PalPatcher.sh
     ```
     It will asks for some paramters. Fill them accordingly.
-> [!NOTE] Running the HOST sav
+   
+> [!NOTE]
 > OldUID - usually `00000000000000000000000000000001`
 > NewUID - find this by logging in to the game and a new file with UID will be created
 > File Location - At same directory just put `Level.sav` or `HOST.sav` file
