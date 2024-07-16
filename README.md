@@ -45,12 +45,12 @@
     palworld-save-tools -h
     ```
 > [!IMPORTANT]
-> If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. This step is crucial for the `PalParser.sh` to work properly.
+> If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. This step is crucial for the `PalPatcher.sh` to work properly.
 
 5. Drag the `.sav` file into the same patcher directory (Host.sav or Level.sav)
 ```
 .
-├── PalParser.sh
+├── PalPatcher.sh
 ├── PalParser.jar
 └── Level.sav
 ```
@@ -58,9 +58,9 @@
 > You only need to run this script with `00000000000000000000000000000001.sav` and `Level.sav` files. The other players, drag them into the player folder without any modifications.
 
 
-6. Run `PalParser.sh` script in bash terminal
+6. Run `PalPatcher.sh` script in bash terminal
     ```bash
-    bash PalParser.sh
+    bash PalPatcher.sh
     ```
     It will asks for some paramters. Fill them accordingly.
 > [!NOTE] Running the HOST sav
