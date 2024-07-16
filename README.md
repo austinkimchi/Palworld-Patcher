@@ -1,3 +1,7 @@
+## Palworld Patcher
+Palworld Patcher is a tool that migrates a co-op world to a dedicated server.
+The purpose of this tool is to help migrate the UID change of the host (i.e ...000001) to the new-UID of the server.
+
 ### Prerequisites
 1. Python 3.9 or later
     - This patcher uses `palworld-save-tools` package
@@ -21,14 +25,14 @@
 
 ### Installation
 0. Run the server and NO ONE joins the game
-    - This will create the `GameUserSettings.ini` if not already existed
+    - This will create the `GameUserSettings.ini` if not already created
     - Stop Server
 1. Change the `DedicatedServerName` parameter to your transfer file
     - Find the `GameUserSettings.ini` located in `PalServer/Pal/Saved/Config/[OS]Server`
     - Replace `DedicatedServerName` parameter to your transfer file's game name from path `.../SaveGames/0/[THIS RANDOM CHARACTERS]`
 2. Run the server and ONLY HOST joins the game
     - This will create the `[HOST].sav` file in the `Players` folder
-    - Note, the \[HOST\] is the UID of the host
+    - Note, the \[HOST\] is the new-UID of the host
     - Stop Server
 
 3. Clone this repository
@@ -45,7 +49,7 @@
     palworld-save-tools -h
     ```
 > [!IMPORTANT]
-> If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. <br /> This step is crucial for the `PalPatcher.sh` to work properly.
+> If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. <br />Remember to add python installation path to your enviromental variables.  <br /> This step is crucial for the `PalPatcher.sh` to work properly.
 <br />
 
 
@@ -54,11 +58,11 @@
 .
 ├── PalPatcher.sh
 ├── PalParser.jar
-└── Level.sav
+└── Level.sav or ...00000001.sav
 ```
 
 > [!NOTE]
-> You only need to run this script with `00000000000000000000000000000001.sav` and `Level.sav` files. The other players, drag them into the player folder without any modifications.
+> You only need to run this script with `00000000000000000000000000000001.sav` or `Level.sav` files. <br />  For other players, drag them into the player folder without any modifications.
 <br />
 
 6. Run `PalPatcher.sh` script in bash terminal
@@ -77,7 +81,7 @@
 7. The process is all automated and will take a few seconds to complete
     After complete, the `Level.sav` or `HOST.sav` file will be updated.
 
-8. Drag the `Level.sav` or `HOST.sav` file to the `SaveGames/0/DSN` folder
+8. Drag the `Level.sav` or `HOST.sav` file to the `SaveGames/0/{RANDOMCHARS}` folder
     - Replace the old file with the new file
 
 9. Run the server and all players can join the game
