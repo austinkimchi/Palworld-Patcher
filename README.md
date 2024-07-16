@@ -18,7 +18,7 @@
     - Stop Server
 1. Change the `DedicatedServerName` parameter to your transfer file
     - Find the `GameUserSettings.ini` located in `PalServer/Pal/Saved/Config/[OS]Server`
-    - Replace `DedicatedServerName` parameter to your transfer file
+    - Replace `DedicatedServerName` parameter to your transfer file's game name from path `.../SaveGames/0/[THIS RANDOM CHARACTERS]`
 2. Run the server and ONLY HOST joins the game
     - This will create the `[HOST].sav` file in the `Players` folder
     - Note, the \[HOST\] is the UID of the host
