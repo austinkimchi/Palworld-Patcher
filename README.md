@@ -1,16 +1,23 @@
 ### Prerequisites
 1. Python 3.9 or later
     - This patcher uses `palworld-save-tools` package
-2. Java 8 or later (JRE)
+      ```bash
+        python -m pip install palworld-save-tools
+      ```
+        or
+      ```bash
+        pip install palworld-save-tools
+      ```
+3. Java 8 or later (JRE)
     - This patcher uses `PalParser.jar`
     - For Windows users, `choco install jre8`
     - For Mac users, `brew install --cask adoptopenjdk8`
     - For Linux users, `sudo apt install default-jre`
-3. Bash Shell
+4. Bash Shell
     - For Windows users, it is recommended to use Git Bash
     - For Mac users, the default terminal will do
     - For Linux users, any bash terminal will do
-4. Palworld Server Installation
+5. Palworld Server Installation
 
 ### Installation
 0. Run the server and NO ONE joins the game
@@ -38,7 +45,7 @@
     palworld-save-tools -h
     ```
 > [!IMPORTANT]
-> If the installation failed it will display run terminal as an administrator or use `sudo` for Linux and Mac users
+> If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. This step is crucial for the `PalParser.sh` to work properly.
 
 5. Drag the `.sav` file into the same patcher directory (Host.sav or Level.sav)
 ```
