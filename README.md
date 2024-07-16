@@ -39,8 +39,12 @@ The purpose of this tool is to help migrate the UID change of the host (i.e ...0
     ```bash
     git clone https://github.com/PrincessKimchi/Palworld-Patcher.git
     ```
+    https://www.virustotal.com/gui/file/f31fbb56df17f5d33bbb0e5585ef7581b66bfe8969bef04b7c7d2935368610e8 <br />
+    https://www.virustotal.com/gui/file/1c06e4fc8f03cc02e6cee9eed8827f1a156e72c1d154e05ac1a4f3421bcdbb18 <br />
+   Always check MD5 of files and virus scan yourself to ensure you aren't downloading malware.
+   
 
-4. Install the required packages
+5. Install the required packages
     ```bash
     python -m pip install palworld-save-tools
     ```
