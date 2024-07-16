@@ -69,6 +69,8 @@
 > NewUID - find this by logging in to the game and a new file with UID will be created <br />
 > File Location - If in the same directory, `Level.sav` or `HOST.sav` file 
 <br />
+
+
 7. The process is all automated and will take a few seconds to complete
     After complete, the `Level.sav` or `HOST.sav` file will be updated.
 
