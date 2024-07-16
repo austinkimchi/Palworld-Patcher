@@ -65,9 +65,9 @@
     It will asks for some paramters. Fill them accordingly.
    
 > [!NOTE]
-> OldUID - usually `00000000000000000000000000000001`
-> NewUID - find this by logging in to the game and a new file with UID will be created
-> File Location - At same directory just put `Level.sav` or `HOST.sav` file
+> OldUID - usually `00000000000000000000000000000001` <br />
+> NewUID - find this by logging in to the game and a new file with UID will be created <br />
+> File Location - At same directory just put `Level.sav` or `HOST.sav` file 
 
 7. The process is all automated and will take a few seconds to complete
     After complete, the `Level.sav` or `HOST.sav` file will be updated.
