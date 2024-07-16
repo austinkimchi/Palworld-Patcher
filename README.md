@@ -46,7 +46,7 @@
     ```
 > [!IMPORTANT]
 > If the installation failed, run terminal as an administrator or use `sudo` for Linux and Mac users. This step is crucial for the `PalPatcher.sh` to work properly.
-
+<br />
 5. Drag the `.sav` file into the same patcher directory (Host.sav or Level.sav)
 ```
 .
@@ -56,7 +56,7 @@
 ```
 > [!NOTE]
 > You only need to run this script with `00000000000000000000000000000001.sav` and `Level.sav` files. The other players, drag them into the player folder without any modifications.
-
+<br />
 
 6. Run `PalPatcher.sh` script in bash terminal
     ```bash
@@ -67,8 +67,8 @@
 > [!NOTE]
 > OldUID - usually `00000000000000000000000000000001` <br />
 > NewUID - find this by logging in to the game and a new file with UID will be created <br />
-> File Location - At same directory just put `Level.sav` or `HOST.sav` file 
-
+> File Location - If in the same directory, `Level.sav` or `HOST.sav` file 
+<br />
 7. The process is all automated and will take a few seconds to complete
     After complete, the `Level.sav` or `HOST.sav` file will be updated.
 
