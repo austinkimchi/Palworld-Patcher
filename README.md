@@ -2,11 +2,11 @@
 1. Python 3.9 or later
     - This patcher uses `palworld-save-tools` package
       ```bash
-        python -m pip install palworld-save-tools
+      python -m pip install palworld-save-tools
       ```
         or
       ```bash
-        pip install palworld-save-tools
+      pip install palworld-save-tools
       ```
 3. Java 8 or later (JRE)
     - This patcher uses `PalParser.jar`
