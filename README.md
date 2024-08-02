@@ -77,17 +77,35 @@ The purpose of this tool is to help migrate the UID change of the host (i.e ...0
 > [!NOTE]
 > OldUID - usually `00000000000000000000000000000001` <br />
 > NewUID - find this by logging in to the game and a new file with UID will be created <br />
-> File Location - If in the same directory, `Level.sav` or `HOST.sav` file 
+> File Location - If in the same directory, just type `Level.sav` or `HOST.sav` file 
 <br />
 
 
 7. The process is all automated and will take a few seconds to complete
     After complete, the `Level.sav` or `HOST.sav` file will be updated.
 
-8. Drag the `Level.sav` or `HOST.sav` file to the `SaveGames/0/{RANDOMCHARS}` folder
-    - Replace the old file with the new file
+8. Replace the server files, `SaveGames/0/{RANDOMCHARS}` with your server files
+    - Within these files, remove ....0000001.sav file in players folder
 
-9. Run the server and all players can join the game
+10. Drag the `Level.sav` or `HOST.sav` file to the `SaveGames/0/{RANDOMCHARS}` folder
+    - Rename `00000000000000000000000000000001.sav` to the newUID.sav
+    - Replace the old `Level.sav` file with the new `Level.sav` file
+
+11. Drag all the other Player's file (if you have any)
+    - If you skip this step, and started the server, you will need to rebuild the server files.
+      
+> [!IMPORTANT]
+> If you skip step 11 and start the server, you will need to repeat steps 8-12 again.
+
+12. Run the server and all players can join the game
 
 > [!IMPORTANT]
-> Both the `Host.sav` and `Level.sav` files must be updated for the patch to work correctly. Do them one at a time.
+> Both the `Host.sav` and `Level.sav` files must be updated for the patch to work correctly. Run two seperate commands to prepare the files.
+
+> [!NOTE]
+> `HOST.sav` is referencing to `00000000000000000000000000000001.sav`, vise-versa 
+
+
+
+## Instructional video for script
+[![Palworld-Patch Instructions](https://img.youtube.com/vi/-Pmp5KMFx7g/0.jpg)](https://www.youtube.com/watch?v=-Pmp5KMFx7g)
