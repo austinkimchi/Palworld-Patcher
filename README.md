@@ -18,7 +18,7 @@ The purpose of this tool is to help migrate the UID change of the host (i.e ...0
     - For Mac users, `brew install --cask adoptopenjdk8`
     - For Linux users, `sudo apt install default-jre`
 4. Bash Shell
-    - For Windows users, it is recommended to use Git Bash
+    - For Windows users, it is recommended to use [Git Bash](https://git-scm.com/downloads)
     - For Mac users, the default terminal will do
     - For Linux users, any bash terminal will do
 5. Palworld Server Installation
