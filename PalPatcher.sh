@@ -59,3 +59,5 @@ echo "Cleaning $path.json"
 rm $path.json
 
 echo "Done"
+
+read -p "Enter to quit"
