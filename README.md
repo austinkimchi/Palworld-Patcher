@@ -3,7 +3,7 @@ Palworld Patcher is a tool that migrates a co-op world to a dedicated server.
 The purpose of this tool is to help migrate the UID change of the host (i.e ...000001) to the new-UID of the server.
 
 ### Prerequisites
-1. Python 3.9 or later
+1. [Python 3.9 or later](https://www.python.org/downloads/)
     - This patcher uses `palworld-save-tools` package
       ```bash
       python -m pip install palworld-save-tools
@@ -12,7 +12,7 @@ The purpose of this tool is to help migrate the UID change of the host (i.e ...0
       ```bash
       pip install palworld-save-tools
       ```
-3. Java 8 or later (JRE)
+3. [Java 8 or later (JRE)](https://www.java.com/en/download/manual.jsp)
     - This patcher uses `PalParser.jar`
     - For Windows users, `choco install jre8`
     - For Mac users, `brew install --cask adoptopenjdk8`
