@@ -71,9 +71,8 @@ The purpose of this tool is to help migrate the UID change of the host (i.e ...0
 
 6. Run `PalPatcher.sh` script in bash terminal
     ```bash
-    bash PalPatcher.sh
+    PalParser.sh <oldUID> <newUID> <pathToSavFile>
     ```
-    It will asks for some paramters. Fill them accordingly.
    
 > [!NOTE]
 > OldUID - usually `00000000000000000000000000000001` <br />
