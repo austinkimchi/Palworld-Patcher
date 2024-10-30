@@ -1,4 +1,5 @@
 ## Palworld Patcher
+(For v0.3.3.55731, and later) Tested using Windows Co-OP to Linux Server. <br>
 Palworld Patcher is a tool that migrates a co-op world to a dedicated server.
 The purpose of this tool is to help migrate the UID change of the host (i.e ...000001) to the new-UID of the server.
 
